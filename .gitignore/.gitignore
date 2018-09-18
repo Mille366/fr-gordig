@@ -1,0 +1,159 @@
+1 MODERKORTET 
+
+Vad betyder ESD? 
+ESD betyder Electro Static Discharge
+Statisk elektricitet kan skada datorns komponenter utan att man märker det. Ge exempel på hur man skyddar datorns komponenter medan man arbetar i den. 
+	Man kan jorda sig med hjälp av en sladd som är kopplad till en jord.
+Hur bör man förvara datorkomponenter man plockat ur datorn? 
+Man bör förvara datorkomponenter i en ESD-påsar så produkten inte skadas
+Vilka produkter och typer av ESD-skydd finns i datasalen på din skola?
+
+Ge en kort beskrivning av moderkortet samt dess funktion. 
+Moderkortet är datorkomponenten som kopplar ihop alla andra komponenter. Moderkortet är själva hjärtat av datorn. Moderkortet består av många ingångar till varje datorkomponent till exempel PSU. PSU har sin sladdingång i moderkortet men dess plats i datorn är på ett annat ställe. GPU, CPU och RAM har sina platser direkt kopplade i moderkortet. Utan moderkortet skulle datorn aldrig fungera.
+Nämn några tillverkare av moderkort. Tips: Sök på nätet. 
+Asus, MSI, EVGA
+
+2 PROCESSORN
+
+Vilket företag startade tillverkningen av processorer till PC-datorer? 
+Intel
+Vilken är den i praktiken högsta klockfrekvens för dagens processorer till persondatorer? 
+3,00GHz 
+Nämn ett annat sätt än ökad klockfrekvens för att öka beräkningskapaciteten hos en processor? 
+Ett bättre kylsystem kan göra din processor snabbare som t.ex vattenkylning istället för fläkt
+Intels processorer har en avancerad minneshantering. Den har separata cache minnen för instruktioner och data, vad kallas dessa cacheminnen för? 
+L1 och L2 cache
+Förklara kortfattat vad som menas med Hyper Pipeline ?
+ Hyper Pipeline är ett processor-tillägg som Intel har skapat som gör att två program processer eller trådar kan köras parallellt med liknande prestanda som en dator med två processorer eller processorkärnor, istället för att processorn behöver växla mellan processerna med tids delad multikörning
+Vad menas med Multithreading 
+Det gör att en dator till synes kan göra fler saker samtidigt. T.ex köra ett spel samtidigt som man laddar ner något från internet. 
+Förklara kortfattat Execution Trace Cache. 
+Execution Trace Cache är ett specialiserat minne som man använder till att lagra alla dynamiska instruktioner. Man använder den också till att öka instruktionshämtningsbandbredd och minska strömanvändandet.
+
+Förklara kortfattat funktionen med Advanced Transfer Cache. 
+När processorn kan hämta information från L2 minnet varje klockcykel istället för varannat.
+Förklara kortfattat begreppet quad-pumped ? 
+Det betyder att för varje klockcykel passeras 4 bitar istället för en
+
+Förklara kortfattat funktionen av Rapid Execution Engine. Den del i datorn som ger processorn all information och data kallas Rapid Execution Engine och den ser till att all information är rätt.
+Vad är FPU:ns funktion ? 
+Dess funktion är att läsa flyttal och den är även bra för 3D spel.
+Förklara begreppet SSE - Streaming SIMD Extensions. 
+En samling instruktioner som datorn förstår för att göra det effektivare.
+Förklara begreppet Hyper-Threading (HT).
+Tack vare en Hyper-Threading kan en processor arbete med två separata trådar på samma gång
+Vad är en Front Side Bus [FSB) ? 
+En buss som sköter kommunikationen mellan processorn och övriga kretsar med hjälp av moderkortets chipset.
+Vad innebär det att en processor har flera kärnor? 
+Kärnan är själva hjärnan i processorn. Om man har en processor med flera kärnor är det flera separata processorer i samma krets som samarbetar.
+Vad innebär att en processor har virtualiseringsstöd?
+Virtualiseringsstöd finns för att kunnas användas i datorer med virtualiserings operativsystem som VMWare eller Microsoft Hyper-V
+Vad heter Intels i nuläget snabbaste processor för persondatorer? 
+Intel core i9 7980XE
+Vilka två huvudfunktioner har vPro-teknologin?
+En huvudfunktion är att kunna effektivt skydda personlig data inom företag som är kopplade till företagsnätverk
+ Vad är Celeron?
+Intels budget processorer 
+Vad heter Intels och AMD:s processorer lämplig för Notebooks och mobila enheter? 
+Intel atom och AMD turion
+I vilken miljö används Intel Xeon? 
+Servrar
+Vilka specialfunktioner har Intel Xeon? 
+Intel Xeon är en av få som har multiprocessor stöd och förbättrad felkontroll som ger en ökad stabilitet, Intel Xeon har även tillgång till den nya Hyper-Threading teknologin för att kunna köra flera program samtidigt
+Vad heter Intels (64-bitars) “värsting-processor”?
+Intel Itanium
+
+Vad står AMD för?
+Advanced Micro Devices
+Vad heter AMD:s processorer för stationära datorer och vad skiljer dessa åt?
+AMD phenom. Det som skiljer de åt är antalet kärnor och dess hastighet.
+AMD Athlon 64 har en Integrerad minneskontroller, vad innebär det för fördelar? 
+Väntetiden mellan processorn och minnet har blivit kortats
+Vad innebär tekniken HyperTransport ? 
+Den ersätter den vanliga frontsidebussen och sitter nu i processorn.
+ Vad innebär funktionen Cool’n’Quiet som finns i AMD Athlon 64 ? 
+Att processorn anpassar både sin hastighet och spänning under körning.
+Athlon 64 har något som kallas för Heatspreade., Vad innebär det ? 
+Det är ett metallhölje som både skyddar processorn och som sprider värmen.
+ Vad kallas AMD’s serverprocessor ? 
+AMD’s serverprocessor kallas för AMD Opteron
+I vilka tillämpningar hittar man ARM-processorer och vilken är fördelen med dessa?
+De är väldigt strömsnåla och därför kan man hitta dem i t.ex mobiltelefoner, spelkonsoler och annan konsumentteknik
+
+3 CHIPSET OCH BUSSAR
+
+Vad består ett chipset av och vad är dess funktion? 
+På moderkortet sitter chipset som är de kretsar som används för att stödja huvudprocessorn. Man kan se det som att chipset är datorns nervsystem som skickar ut signaler med information till processorn.
+Den vanligaste chipset-arkitekturen består av två delar. Vad kallas dessa och vilka är dess funktioner? 
+South och Northbridge. Northbridge är snabbare och sköter färre saker. Southbridge är långsammare men sköter mer saker.
+Vilken del är den snabbaste (transporterar störst datamängder)
+Northbridge
+Under de senaste åren har chipset-tillverkarna försökt bygga in fler och fler funktioner i chipset. Nämn några.
+Grafikkort, ljudkort, modem, nätverkskort
+Vilken är ofta den största skillnaden inbyggda funktioner i chipset och motsvarande separata funktioner ansluten via en extern buss?
+	Ljud och grafikkort är betydligt bättre på de med inbyggda funktioner.
+Vad kallas den buss som sammanbinder processorn och arbetsminnet? 
+Northbus. äre inte front side bus?
+På vilket sätt är bussen bredd av betydelse för datorns kapacitet?
+Bredden avgör hur många bit som skickas varje gång.
+Vad är den största skillnaden mellan ISA bussen och PCI bussen?
+Det är två olika standarder. De är också olika snabba. ISA buss är äldre och långsammare.
+Vad menas med att PCI-bussen är självkonfigurerande? (i motsats till ISA-bussen)
+Tilldelningar till minnet, IRQ, DMA mm sker av sig själv.
+Vilket är det största problemet med parallell överföring vid höga hastigheter?
+Om ledningarna är olika långa så läses inte informationen av vid samma tillfälle vilket är dåligt och funkar inte då.
+Vilken PCIe-buss behöver man minst, för att få bättre prestanda än snabbaste
+ AGP?
+PCI Express x 16
+ Vad heter den nyaste interna PC-bussen som har ersatt PCI och AGP?
+PCI-X
+Arbetar denna Parallellt eller Seriellt och med halv eller full duplex?
+Seriellt, full duplex.
+ Vad kallas den snabba varianten av denna som används bl.a. för grafikkort och vilken hastighet ger denna? 
+PCI Express
+Vad betyder AGP?
+Accelerated Graphics Port.
+Nämn en fördel med att AGP bara arbetar mellan grafikkretsar och processor.
+Den har tillgång till norra bryggan utan att belasta processorn.
+Vilken är fördelen med att AGP får tillgång till RAM-minne, parallellt med processorn?
+Hanteringen av 3D förbättras.
+Ge exempel på användningsområde för FireWire bussen.
+Videokamera, videobandspelare.
+Vilken fördel har FireWire framför t.ex USB gällande behov av styrenhet?
+Man behöver inte ha en PC utan man kan använda den direkt mellan olika enheter.
+Varför slog aldrig FireWire igenom på allvar i PC-världen?
+För att USB 2.0 blev snabbare.
+Vad innebär det att FireWire har “Hot swap”?
+Att man kan sätta i och plocka ur hårddiskar medan datorn är igång.
+Vad är USB för typ av förbindelse samt i vilka sammanhang används den ?
+Seriell förbindelse och att används i t.ex tangentbord och mus 
+Vad innebär “Plug&Play” och “Hot Plug” i USB-sammanhang?
+Man kan sätta in eller dra ut kontakten utan att datorn behöver startas om.
+Hur många USB-enheter kan man max koppla ihop?
+127
+Hur många ledare måste en USB-kabel minst ha?
+Fyra 
+Vilken är max-längden på en USB-kabel?
+5 meter
+Hur mycket ström kan en USB 2.0-port leverera till en extern enhet?
+500 mA 
+
+Vad gäller för hastighet och max ström för en USB 3.0-port?
+5000Mbit/s 0,9A
+Den ursprungliga relativt enkla parallell ATA standard (P-ATA) har ersättas av en nv standard, vilken?
+SATA
+Vilken är den största skillnaden mellan dessa?
+Ena är paralell och andra är seriell
+Vilken är max-längden på en S-ATA kabel?
+2 meter
+Vad är e-SATA
+En eSATA-port är en förlängning av en intern sata port och man kan uppnå bättre prestanda än en USB port
+Vad kallas ATA-1 med ett annat namn?
+IDE
+Ange några fördelar med S-ATA jämfört med P-ATA. 
+Bättre luftcirkulation, större flexibilitet, bättre plats.
+Vilken är den snabbaste interna bussen i en dator?
+PCI express 2.0 max
+Vilken är den snabbaste externa porten?
+USB 3.0
+Identifiera portarna på en datorn som hänger under bordet. Ange vad det är för en typer av portar (använd t.ex Google bilder, för att identifiera dem)
